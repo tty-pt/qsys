@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@tty-pt/mk':
+        specifier: ^0.1.9
+        version: 0.1.9
+
+packages:
+
+  '@tty-pt/mk@0.1.9':
+    resolution: {integrity: sha512-lBJCF9qKPdG8uEnEx3CCqNEYgO7YvmkkQhmrQc996gUH0lNIDBd2ecpAI2eXZVQii+ZqjSxcN6jjhjxwio/F5Q==}
+
+snapshots:
+
+  '@tty-pt/mk@0.1.9': {}
