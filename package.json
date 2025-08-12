@@ -1,0 +1,27 @@
+{
+  "name": "@tty-pt/qsys",
+  "version": "0.0.10",
+  "description": "Common system helpers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo no tests",
+    "postinstall": "make"
+  },
+  "keywords": [
+    "log"
+  ],
+  "author": "quirinpa@gmail.com",
+  "license": "BSD-2-Clause",
+  "files": [
+    "src/*.c",
+    "*.pc",
+    "include",
+    "Makefile"
+  ],
+  "peerDependencies": {
+    "@tty-pt/mk": "^0.1.13"
+  },
+  "devDependencies": {
+    "@tty-pt/mk": "^0.1.13"
+  }
+}
